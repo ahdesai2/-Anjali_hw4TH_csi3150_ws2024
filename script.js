@@ -21,7 +21,7 @@ function displayRandomQuote() {
   alert(quotes[randomIndex]);
 }
 
-//  event listener 
+//  event listener for the button
 document
   .getElementById("quoteButton")
   .addEventListener("click", displayRandomQuote);
